@@ -58,6 +58,19 @@ body {
     font-family: "Baloo Thambi 2", cursive;
 }
 
+.corona_rot img {
+    animation: covid19 3s linear infinite;
+}
+
+@keyframes covid19 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
 
 /* ---------------------------------------------- */
 
