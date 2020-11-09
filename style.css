@@ -81,34 +81,36 @@ body {
 /* ---------------------------------------------- */
 
 @media screen and (max-width:1200px) {
-    .latest-report {
-        align-items: flex-start;
+    .html {
+        width: 100;
+        height: auto;
     }
-}
-
-@media only screen and (max-width: 768px) {
     .latest-report {
         width: 100%;
         height: auto;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .logocgc {
-        display: flex;
-    }
-}
-
-@media only screen and (max-width: 768px) {
     .logo {
-        display: flex;
+        width: 100%;
+        height: auto;
     }
-}
-
-@media only screen and (max-width: 768px) {
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+    .logocgc img {
+        width: 100%;
+        height: auto;
+    }
     .arrow img {
         width: 100%;
         height: auto;
-        display: flex;
+    }
+    .body {
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
     }
 }
