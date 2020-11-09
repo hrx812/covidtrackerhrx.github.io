@@ -82,7 +82,6 @@ body {
 
 @media screen and (max-width:1200px) {
     .latest-report {
-        display: flex;
         align-items: flex-start;
     }
 }
@@ -91,5 +90,25 @@ body {
     .latest-report {
         width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logocgc {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .arrow img {
+        width: 100%;
+        height: auto;
+        display: flex;
     }
 }
