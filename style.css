@@ -80,7 +80,7 @@ body {
 
 /* ---------------------------------------------- */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:360px) {
     .html {
         width: 100;
         height: auto;
